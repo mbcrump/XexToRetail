@@ -1,0 +1,7 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\RunXexTool]
+@="Run XexTool on this file"
+
+[HKEY_CLASSES_ROOT\*\shell\RunXexTool\command]
+@="powershell.exe -ExecutionPolicy Bypass -NoProfile -File \"D:\\X360\\RunXeXTool.ps1\" \"%1\""
